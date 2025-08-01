@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+header{
+    background-color: rgb(188, 137, 236);
+    padding: 1rem;
+    text-align: center;
+    color: whitesmoke;
+}
+header h1{
+    margin: 0;
+    font-size: 2.5rem;
+}
+nav{
+    margin-top: 1rem;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 0.5rem 1rem;
+    background-color: rgb(174, 83, 174);
+    border-radius: 5px;
+}
+
+main{
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+}
+
+section{
+    padding: 2rem;
+}
+h2{
+    color: rgb(174, 83, 174);
+    border-bottom: 2px solid rgb(174, 83, 174);
+    padding-bottom: 0.5rem;
+}
+h3{
+    color:rgb(174, 83, 174);
+    margin-bottom: 1rem;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    
+}
+
+td, th{
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th{
+    background-color: rgb(188, 137, 236);
+}
+footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(188, 137, 236);
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+strong{
+    color: rgb(174, 83, 174);
+}
